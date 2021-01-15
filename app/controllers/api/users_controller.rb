@@ -1,7 +1,7 @@
 class Api::UsersController < ApplicationController
 
     def index
-        users = User.all
+        users = User.all.includes(:likes, :reviews)
         render json: users, except: [:created_at, :updated_at]
     end
 
