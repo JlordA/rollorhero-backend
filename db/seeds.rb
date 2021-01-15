@@ -15,7 +15,7 @@ Review.destroy_all
 DeliSandwich.destroy_all
 
 #### User Seed ####
-james = User.create!(username: "James", password_digest: "pass1234", neighborhood: "Bed Stuy", borough: "Brooklyn")
+james = User.create!(username: "James", password: "Password1234", neighborhood: "Bed Stuy", borough: "Brooklyn")
 
 #### Sandwich Seed ####
 
