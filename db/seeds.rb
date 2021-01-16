@@ -63,51 +63,65 @@ Sand21 = Sandwich.create!(name: "Roast Beef", description: "this is basically a 
 
 Sand22 = Sandwich.create!(name: "Eggplant Parm", description: "well worth the journey because the eggplant parm is the best in nyc", price: 12, style: "Sub", rating: 5)
 
-#### Deli Seed ####
+Sand23 = Sandwich.create!(name: "Toscana", description: "keeping the legit Italian alive in Manhattan... get a bite here after going to the hudson yards", price: 18, style: "Sub", rating: 4)
 
-Deli1 = Deli.create!(name: "Champs Diner", address: "197 Meserole St, Brooklyn, NY 11206", style: "Diner", hours_open: "12pm - 8pm", neighborhood: "Williamsburg", borough: "Brooklyn", lat: 40.70865966641053, lng: -73.94043916185186)
+Sand24 = Sandwich.create!(name: "Bridgette bardo", description: "never look back... it is the truth... I have died in paris", price: 18, style: "club", rating: 5)
 
-Deli2 = Deli.create!(name: "by CHLOE", address: "171 N 3rd St, Brooklyn, NY 11211", style: "Diner", hours_open: "11am - 9pm", neighborhood: "Williamsburg", borough: "Brooklyn", lat: 40.71539318398818, lng: -73.9592773710911)
+Sand25 = Sandwich.create!(name: "Tofu Sandwich", description: "light and healty... apparently their pho is also good", price: 12, style: "sub", rating: 3)
 
-Deli3 = Deli.create!(name: "The VSPOT", address: "156 5th Ave, Brooklyn, NY 11217", style: "Jewish Deli", hours_open: "12pm - 10pm", neighborhood: "Park Slope", borough: "Brooklyn", lat: 40.67833907607952, lng: -73.97886934281522)
 
-Deli4 = Deli.create!(name: "The Brooklyn Tree", address: "188 Montrose Ave, Brooklyn, NY 11206", style: "Restaurant", hours_open: "11am-10pm", neighborhood: "Williamsburg", borough: "Brooklyn", lat: 40.70745100728279, lng: -73.9418144152683)
+#### Deli Seed ####     40.79219148698767, -73.93854900173078
 
-Deli5 = Deli.create!(name: "Cafe Moca", address: "487 Seneca Ave, Ridgewood, NY 11385", style: "Restaurant", hours_open: "9am - 3pm", neighborhood: "Ridgewood", borough: "Queens", lat: 40.705863509595225, lng: -73.91215228458499)
+Deli1 = Deli.create!(name: "Champs Diner", address: "197 Meserole St, Brooklyn, NY 11206", style: "Diner", hours_open: "12pm - 8pm", neighborhood: "Williamsburg", borough: "Brooklyn", lat: 40.70844058763656, lng: -73.94089983118074)
 
-Deli6 = Deli.create!(name: "Pisillo Italian Panini", address: "97 Nassau St, New York, NY 10038", style: "Italian Deli", hours_open: "11am - 8pm", neighborhood: "Tribeca", borough: "Manhattan", lat: 40.71072476392275, lng: -74.00774320547023)
+Deli2 = Deli.create!(name: "by CHLOE", address: "171 N 3rd St, Brooklyn, NY 11211", style: "Diner", hours_open: "11am - 9pm", neighborhood: "Williamsburg", borough: "Brooklyn", lat: 40.71521478758411, lng: -73.95936320173284)
 
-Deli7 = Deli.create!(name: "Cafe On Ralph", address: "86 Ralph Ave, Brooklyn, NY 11221", style: "Restaurant", hours_open: "10am - 5pm", neighborhood: "Bed Stuy", borough: "Brooklyn", lat: 40.687465426361996, lng: -73.92328181767535)
+Deli3 = Deli.create!(name: "The VSPOT", address: "156 5th Ave, Brooklyn, NY 11217", style: "Jewish Deli", hours_open: "12pm - 10pm", neighborhood: "Park Slope", borough: "Brooklyn", lat: 40.67809599640726, lng: -73.97952313118138)
 
-Deli8 = Deli.create!(name: "Harlem Taste (Hajji’s)", address: "2135 1st Avenue, New York, NY 10029", style: "Bodega", hours_open: "24/7", neighborhood: "Harlem", borough: "Manhattan", lat: 40.792304696061095, lng: -73.93843098458292)
+Deli4 = Deli.create!(name: "The Brooklyn Tree", address: "188 Montrose Ave, Brooklyn, NY 11206", style: "Restaurant", hours_open: "11am-10pm", neighborhood: "Williamsburg", borough: "Brooklyn", lat: 40.70732138764527, lng: -73.94184593118072)
 
-Deli9 = Deli.create!(name: "Anthony & Son Panini Shoppe", address: "433 Graham Ave, Brooklyn, NY 11211", style: "Italian Deli", hours_open: "8am - 8pm", neighborhood: "Williamsburg", borough: "Brooklyn", lat: 40.718113218148396, lng: -73.94519571711584)
+Deli5 = Deli.create!(name: "Cafe Moca", address: "487 Seneca Ave, Ridgewood, NY 11385", style: "Restaurant", hours_open: "9am - 3pm", neighborhood: "Ridgewood", borough: "Queens", lat: 40.705686104308356, lng: -73.91226896062858)
 
-Deli10 = Deli.create!(name: "Hana Food", address: "534 Metropolitan Ave, Brooklyn, NY 11211", style: "Bodega", hours_open: "24/7", neighborhood: "Williamsburg", borough: "Brooklyn", lat: 40.71412941957995, lng: -73.95107298828057)
+Deli6 = Deli.create!(name: "Pisillo Italian Panini", address: "97 Nassau St, New York, NY 10038", style: "Italian Deli", hours_open: "11am - 8pm", neighborhood: "Tribeca", borough: "Manhattan", lat: 40.71055499590835, lng: -74.00759300173287)
 
-Deli11 = Deli.create!(name: "Sal, Kris & Charlies Deli", address: "33-12 23rd Ave, Queens, NY 11105", style: "Italian Deli", hours_open: "5am - 6pm", neighborhood: "Ditmars Steinway", borough: "Queens", lat: 40.773428802595596, lng: -73.91115296185025)
+Deli7 = Deli.create!(name: "Cafe On Ralph", address: "86 Ralph Ave, Brooklyn, NY 11221", style: "Restaurant", hours_open: "10am - 5pm", neighborhood: "Bed Stuy", borough: "Brooklyn", lat: 40.68715678780137, lng: -73.92379613118116)
 
-Deli12 = Deli.create!(name: "Defontes Sandwich Shop", address: "379 Columbia St, Brooklyn, NY 11231", style: "Italian Deli", hours_open: "6am - 4pm", neighborhood: "Red Hook", borough: "Brooklyn", lat:40.67938457427907, lng: -74.00531800195581)
+Deli8 = Deli.create!(name: "Harlem Taste (Hajji’s)", address: "2135 1st Avenue, New York, NY 10029", style: "Bodega", hours_open: "24/7", neighborhood: "Harlem", borough: "Manhattan", lat: 40.79219148698767, lng: -73.93854900173078)
 
-Deli13 = Deli.create!(name: "Emily's Pork Store", address: "426 Graham Ave, Brooklyn, NY 11211", style: "Italian Deli", hours_open: "9am - 6pm", neighborhood: "Williamsburg", borough: "Brooklyn", lat: 40.717753023556774, lng: -73.94468672864319)
+Deli9 = Deli.create!(name: "Anthony & Son Panini Shoppe", address: "433 Graham Ave, Brooklyn, NY 11211", style: "Italian Deli", hours_open: "8am - 8pm", neighborhood: "Williamsburg", borough: "Brooklyn", lat: 40.7179749793313, lng: -73.94515079007596)
 
-Deli14 = Deli.create!(name: "Green Deli Mart and Grill", address: "33 Patchen Ave, Brooklyn, NY 11221", style: "Bodega", hours_open: "24/7", neighborhood: "Bed Stuy", borough: "Brooklyn", lat: 40.69134285494389, lng: -73.92738592983318)
+Deli10 = Deli.create!(name: "Hana Food", address: "534 Metropolitan Ave, Brooklyn, NY 11211", style: "Bodega", hours_open: "24/7", neighborhood: "Williamsburg", borough: "Brooklyn", lat: 40.71394288759404, lng: -73.95104080173277)
 
-Deli15 = Deli.create!(name: "Mini Market Incorporated", address: "1173 Broadway, Brooklyn, NY 11221", style: "Bodega", hours_open: "24/7", neighborhood: "Bed Stuy", borough: "Brooklyn", lat: 40.692859370726595, lng: -73.92751090549923)
+Deli11 = Deli.create!(name: "Sal, Kris & Charlies Deli", address: "33-12 23rd Ave, Queens, NY 11105", style: "Italian Deli", hours_open: "5am - 6pm", neighborhood: "Ditmars Steinway", borough: "Queens", lat: 40.77319317932523, lng: -73.91161296062683)
 
-Deli16 = Deli.create!(name: "Lindustrie pizzeria", address: "254 S 2nd St, Brooklyn, NY 11211", style: "Italian Deli", hours_open: "12pm - 10pm", neighborhood: "Williamsburg", borough: "Brooklyn", lat: 40.711816723415886, lng: -73.9578798304956)
+Deli12 = Deli.create!(name: "Defontes Sandwich Shop", address: "379 Columbia St, Brooklyn, NY 11231", style: "Italian Deli", hours_open: "6am - 4pm", neighborhood: "Red Hook", borough: "Brooklyn", lat: 40.67896198786477, lng: -74.00531733118139)
 
-Deli17 = Deli.create!(name: "Fiores House of Quality", address: "414 Adams St #2693, Hoboken, NJ 07030", style: "Italian Deli", hours_open: "8am - 6pm", neighborhood: "Hoboken", borough: "New Jersey", lat: 40.7431302801557, lng: -74.03610313537506)
+Deli13 = Deli.create!(name: "Emily's Pork Store", address: "426 Graham Ave, Brooklyn, NY 11211", style: "Italian Deli", hours_open: "9am - 6pm", neighborhood: "Williamsburg", borough: "Brooklyn", lat: 40.71764070403358, lng: -73.94474976062813)
 
-Deli18 = Deli.create!(name: "Henrys", address: "433 7th Ave, Brooklyn, NY 11215", style: "Vietnamese Deli", hours_open: "11am - 9:30pm", neighborhood: "Park Slope", borough: "Brooklyn", lat: 40.66358918466294, lng: -73.9841984728247)
+Deli14 = Deli.create!(name: "Green Deli Mart and Grill", address: "33 Patchen Ave, Brooklyn, NY 11221", style: "Bodega", hours_open: "24/7", neighborhood: "Bed Stuy", borough: "Brooklyn", lat: 40.69126467933424, lng: -73.92741600173329)
 
-Deli19 = Deli.create!(name: "The Commodore", address: "366 Metropolitan Ave, Brooklyn, NY 11211", style: "Restaurant", hours_open: "12pm - 12am", neighborhood: "Williamsburg", borough: "Brooklyn", lat: 40.714109433371924, lng: -73.95596242018975)
+Deli15 = Deli.create!(name: "Mini Market Incorporated", address: "1173 Broadway, Brooklyn, NY 11221", style: "Bodega", hours_open: "24/7", neighborhood: "Bed Stuy", borough: "Brooklyn", lat: 40.692858551148795, lng: -73.927534960488)
 
-Deli20 = Deli.create!(name: "Brennan & Carr", address: "3432 Nostrand Ave., Brooklyn, NY 11229", style: "Restaurant", hours_open: "11am - 12am", neighborhood: "Sheepshead Bay", borough: "Brooklyn", lat: 40.60058071322956, lng: -73.94169214147502)
+Deli16 = Deli.create!(name: "Lindustrie pizzeria", address: "254 S 2nd St, Brooklyn, NY 11211", style: "Italian Deli", hours_open: "12pm - 10pm", neighborhood: "Williamsburg", borough: "Brooklyn", lat: 40.71160578761208, lng: -73.95786843118051)
 
-Deli21 = Deli.create!(name: "Roll N Roaster", address: "2901 Emmons Ave, Brooklyn, NY 11235", style: "Restaurant", hours_open: "11am - 12am", neighborhood: "Sheepshead Bay", borough: "Brooklyn", lat: 40.58446265951311, lng: -73.93962054399061 )
+Deli17 = Deli.create!(name: "Fiores House of Quality", address: "414 Adams St #2693, Hoboken, NJ 07030", style: "Italian Deli", hours_open: "8am - 6pm", neighborhood: "Hoboken", borough: "New Jersey", lat: 40.743017495409255, lng: -74.0361836017321)
 
-Deli22 = Deli.create!(name: "C & C Italian Deli", address: "149-19 Centreville St, Ozone Park, NY 11417", style: "Italian Deli", hours_open: "6am - 6pm", neighborhood: "Ozone Park", borough: "Queens", lat: 40.672135659411204, lng: -73.83755563599253 )
+Deli18 = Deli.create!(name: "Henrys", address: "433 7th Ave, Brooklyn, NY 11215", style: "Vietnamese Deli", hours_open: "11am - 9:30pm", neighborhood: "Park Slope", borough: "Brooklyn", lat: 40.66341878798499, lng: -73.98421054283844)
+
+Deli19 = Deli.create!(name: "The Commodore", address: "366 Metropolitan Ave, Brooklyn, NY 11211", style: "Restaurant", hours_open: "12pm - 12am", neighborhood: "Williamsburg", borough: "Brooklyn", lat: 40.713904879331594, lng: -73.95589390173274)
+
+Deli20 = Deli.create!(name: "Brennan & Carr", address: "3432 Nostrand Ave., Brooklyn, NY 11229", style: "Restaurant", hours_open: "11am - 12am", neighborhood: "Sheepshead Bay", borough: "Brooklyn", lat: 40.600238579344285, lng: -73.94210453118335)
+
+Deli21 = Deli.create!(name: "Roll N Roaster", address: "2901 Emmons Ave, Brooklyn, NY 11235", style: "Restaurant", hours_open: "11am - 12am", neighborhood: "Sheepshead Bay", borough: "Brooklyn", lat: 40.58417747934587, lng: -73.93964133118375)
+
+Deli22 = Deli.create!(name: "C & C Italian Deli", address: "149-19 Centreville St, Ozone Park, NY 11417", style: "Italian Deli", hours_open: "6am - 6pm", neighborhood: "Ozone Park", borough: "Queens", lat: 40.67063939652181, lng: -73.83819400173391)
+
+Deli23 = Deli.create!(name: "Sergimmo Salumeria", address: "456 9th Ave, New York, NY 10018", style: "Italian Deli", hours_open: "11am - 10pm", neighborhood: "Garment District", borough: "Manhattan", lat: 40.754272979327475, lng: -73.99545391338845)
+
+Deli24 = Deli.create!(name: "Le Petit Parisien", address: "32 E 7th St, New York, NY 10003", style: "Restaurant", hours_open: "8am - 6pm", neighborhood: "Gramercy", borough: "Manhattan", lat: 40.728267484577714, lng: -73.98910022903434)
+
+Deli25 = Deli.create!(name: "Cyclo", address: "5-51 47th Ave, Queens, NY 11101", style: "Vietnamese Deli", hours_open: "12pm - 10pm", neighborhood: "Long Island City", borough: "Queens", lat: 40.74568767932824, lng: -73.95352093117981)
+
 
 
 #### Like Seed ####
@@ -160,6 +174,10 @@ DS19 = DeliSandwich.create!(sandwich: Sand19, deli: Deli19)
 DS20 = DeliSandwich.create!(sandwich: Sand20, deli: Deli20)
 DS21 = DeliSandwich.create!(sandwich: Sand21, deli: Deli21)
 DS22 = DeliSandwich.create!(sandwich: Sand22, deli: Deli22)
+DS23 = DeliSandwich.create!(sandwich: Sand23, deli: Deli23)
+DS24 = DeliSandwich.create!(sandwich: Sand24, deli: Deli24)
+DS25 = DeliSandwich.create!(sandwich: Sand25, deli: Deli25)
+
 
 
 

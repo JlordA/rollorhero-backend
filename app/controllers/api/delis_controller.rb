@@ -1,7 +1,7 @@
 class Api::DelisController < ApplicationController
 
     def index
-        delis = Deli.all
+        delis = Deli.all.includes(:deli_sandwiches, :reviews)
         render json: delis, except: [:created_at, :updated_at]
     end
 

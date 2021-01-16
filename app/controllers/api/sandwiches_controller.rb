@@ -1,7 +1,7 @@
 class Api::SandwichesController < ApplicationController
 
     def index
-        sandwiches = Sandwich.all
+        sandwiches = Sandwich.all.includes(:likes, :deli_sandwiches)
         render json: sandwiches, except: [:created_at, :updated_at]
     end
 

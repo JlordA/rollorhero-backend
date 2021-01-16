@@ -31,8 +31,8 @@ ActiveRecord::Schema.define(version: 6) do
     t.string "hours_open"
     t.string "neighborhood"
     t.string "borough"
-    t.integer "lat"
-    t.integer "lng"
+    t.decimal "lat", precision: 19, scale: 15
+    t.decimal "lng", precision: 19, scale: 15
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

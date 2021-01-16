@@ -7,8 +7,8 @@ class CreateDelis < ActiveRecord::Migration[6.0]
       t.string :hours_open
       t.string :neighborhood
       t.string :borough
-      t.integer :lat
-      t.integer :lng
+      t.decimal :lat, :precision => 19, :scale => 15
+      t.decimal :lng, :precision => 19, :scale => 15
 
       t.timestamps
     end
