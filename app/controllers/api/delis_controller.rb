@@ -2,12 +2,12 @@ class Api::DelisController < ApplicationController
 
     def index
         delis = Deli.all.includes(:deli_sandwiches, :reviews)
-        render json: delis, except: [:created_at, :updated_at]
+        render json: delis, :include => {:sandwiches => :likes}, except: [:created_at, :updated_at]
     end
 
     def show
         deli = Deli.find(params[:id])
-        render json: deli, except: [:created_at, :updated_at]
+        render json: deli, :include => {:sandwiches => :likes}, except: [:created_at, :updated_at]
     end
 
     def create

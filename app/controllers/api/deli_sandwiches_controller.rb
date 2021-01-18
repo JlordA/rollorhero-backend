@@ -13,7 +13,7 @@ class Api::DeliSandwichesController < ApplicationController
     private
 
     def deli_sandwich_params
-        params.permit(:sandwich, :deli)
+        params.permit(:sandwich_id, :deli_id)
     end
 
 end

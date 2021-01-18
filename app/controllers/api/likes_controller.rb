@@ -13,6 +13,6 @@ class Api::LikesController < ApplicationController
     private
 
     def like_params
-        params.permit(:user, :sandwich)
+        params.permit(:user_id, :sandwich_id)
     end
 end

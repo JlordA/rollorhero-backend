@@ -16,6 +16,7 @@ DeliSandwich.destroy_all
 
 #### User Seed ####
 james = User.create!(username: "James", password: "Password1234", neighborhood: "Bed Stuy", borough: "Brooklyn")
+brian = User.create!(username: "Brian", password: "Luggage1234", neighborhood: "Greenpoint", borough: "Brooklyn")
 
 #### Sandwich Seed ####
 
@@ -149,6 +150,17 @@ Review5 = Review.create!(title: "Old School vibe with tons of secret specials", 
 Review6 = Review.create!(title: "Cheap and delicious", date: Faker::Date.between(from: '2018-09-23', to: '2021-01-01'), body: "Henry’s is a gem in an odd place.  While Park Slope has other spots making banh mi sandwiches Henry’s is the cheapest and best hands down", rating: 5, user: james, deli: Deli18) 
 
 Review7 = Review.create!(title: "Best bar food out there", date: Faker::Date.between(from: '2018-09-23', to: '2021-01-01'), body: "Two birds with one stone at the commodore.  You can have a delicious hand made Pina colada, a cheep beer, or a hot breast chicken sandwich that is huge.  Best get all 3", rating: 5, user: james, deli: Deli19) 
+
+Review8 = Review.create!(title: "More Than a Bodega", date: Faker::Date.between(from: '2018-09-23', to: '2021-01-01'), body: "I am probably overhyping this place", rating: 5, user: brian, deli: Deli9) 
+
+Review9 = Review.create!(title: "Drunk Bodega Dinner", date: Faker::Date.between(from: '2018-09-23', to: '2021-01-01'), body: "Show up late... and the sandwich will be the pillow that puts you to sleep.  Something I always dreamed of.", rating: 3, user: brian, deli: Deli10) 
+
+Review10 = Review.create!(title: "Old School for a reason", date: Faker::Date.between(from: '2018-09-23', to: '2021-01-01'), body: "Weird neighborhood but well worth the trip.", rating: 4, user: brian, deli: Deli11) 
+
+Review11 = Review.create!(title: "Classic so you cant go wrong", date: Faker::Date.between(from: '2018-09-23', to: '2021-01-01'), body: "I always get the Italian Stallion aka Sylvester Stallone but I am pretty sure all the sandwichs are bomb.", rating: 5, user: brian, deli: Deli12) 
+
+Review12 = Review.create!(title: "Get The Eggplant", date: Faker::Date.between(from: '2018-09-23', to: '2021-01-01'), body: "I tried the Italian Stallion and it was aight... but I get the Valentini Special because keep it simple with the fried eggplant", rating: 5, user: james, deli: Deli12) 
+
 
 #### DeliSandwich Seed ####
 
