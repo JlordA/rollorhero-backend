@@ -15,9 +15,15 @@ class Api::ReviewsController < ApplicationController
         render json: review, except: [:created_at, :updated_at]
     end
 
+    def update
+        review = Review.find(params[:id])
+        review.update(review_params)
+        render json: review, except: [:created_at, :updated_at]
+    end
+
     private
 
     def review_params
-        params.permit(:title, :date, :body, :rating, :user_id, :deli_id)
+        params.permit(:id, :title, :date, :body, :rating, :user_id, :deli_id)
     end
 end

@@ -10,4 +10,15 @@ class Api::SandwichesController < ApplicationController
         render json: sandwich, except: [:created_at, :updated_at]
     end
 
+    def create
+        sandwich = Sandwich.create(sandwich_params)
+        render json: sandwich, except: [:created_at, :updated_at]
+    end
+
+    private
+
+    def sandwich_params
+        params.permit(:name, :description, :price, :style, :rating)
+    end
+
 end

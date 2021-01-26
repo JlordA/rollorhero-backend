@@ -3,9 +3,9 @@ Rails.application.routes.draw do
   namespace :api do
     resources :users, only: [:show, :index, :create]
     post '/users/login', to: 'users#login'
-    resources :reviews, only: [:show, :index, :create]
+    resources :reviews, only: [:show, :index, :create, :update, :destroy]
     resources :delis, only: [:index, :show, :create]
-    resources :sandwiches, only: [:index, :show]
+    resources :sandwiches, only: [:index, :show, :create]
     resources :likes, only: [:index, :show, :create]
     resources :deli_sandwiches, only: [:index, :show, :create]
   end

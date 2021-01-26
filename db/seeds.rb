@@ -70,6 +70,8 @@ Sand24 = Sandwich.create!(name: "Bridgette bardo", description: "never look back
 
 Sand25 = Sandwich.create!(name: "Tofu Sandwich", description: "light and healty... apparently their pho is also good", price: 12, style: "sub", rating: 3)
 
+Sand26 = Sandwich.create!(name: "Valentini Special", description: "The eggplant at Defontes is out of control and this sandwich is eggplant heaven", price: 12, style: "sub", rating: 5)
+
 
 #### Deli Seed ####     40.79219148698767, -73.93854900173078
 
@@ -189,6 +191,8 @@ DS22 = DeliSandwich.create!(sandwich: Sand22, deli: Deli22)
 DS23 = DeliSandwich.create!(sandwich: Sand23, deli: Deli23)
 DS24 = DeliSandwich.create!(sandwich: Sand24, deli: Deli24)
 DS25 = DeliSandwich.create!(sandwich: Sand25, deli: Deli25)
+DS26 = DeliSandwich.create!(sandwich: Sand26, deli: Deli12)
+
 
 
 
