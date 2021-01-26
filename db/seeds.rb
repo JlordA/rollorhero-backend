@@ -20,57 +20,57 @@ brian = User.create!(username: "Brian", password: "Luggage1234", neighborhood: "
 
 #### Sandwich Seed ####
 
-Sand1 = Sandwich.create!(name: "Vegan Cheeseburger", description: "delicious and healthy", price:  10, style:  "Burger", rating: 4)
+Sand1 = Sandwich.create!(name: "Vegan Cheeseburger", description: "delicious and healthy", price:  10, style:  "Burger", rating: 4, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand2 = Sandwich.create!(name: "Vegan Philly Cheesesteak", description:  "the bomb", price: 8, style:  "Cheesesteak", rating: 5)
+Sand2 = Sandwich.create!(name: "Vegan Philly Cheesesteak", description:  "the bomb", price: 8, style:  "Cheesesteak", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand3 = Sandwich.create!(name: "Guac Burger", description: "drippy and posh", price: 18, style: "Burger", rating: 4)
+Sand3 = Sandwich.create!(name: "Guac Burger", description: "drippy and posh", price: 18, style: "Burger", rating: 4, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand4 = Sandwich.create!(name: "Vegan Chop Cheese", description: "who wouldn’t want to eat this", price: 8, style: "Cheesesteak", rating: 5)
+Sand4 = Sandwich.create!(name: "Vegan Chop Cheese", description: "who wouldn’t want to eat this", price: 8, style: "Cheesesteak", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand5 = Sandwich.create!(name: "Confit Tuna Melt", description: "takes me home", price: 10, style: "Melt", rating: 5 )
+Sand5 = Sandwich.create!(name: "Confit Tuna Melt", description: "takes me home", price: 10, style: "Melt", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand6 = Sandwich.create!(name: "NAPOLI", description: "cold and bold", price: 12, style: "Sub", rating: 5)
+Sand6 = Sandwich.create!(name: "NAPOLI", description: "cold and bold", price: 12, style: "Sub", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand7 = Sandwich.create!(name: "Pulled Chicken Sandwich", description: "delicious tangy sauce", price: 12, style: "Cutlet", rating: 5)
+Sand7 = Sandwich.create!(name: "Pulled Chicken Sandwich", description: "delicious tangy sauce", price: 12, style: "Cutlet", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand8 = Sandwich.create!(name: "Chop Cheese", description: "the O.G. classic", price: 5, style: "Cheesesteak", rating: 5)
+Sand8 = Sandwich.create!(name: "Chop Cheese", description: "the O.G. classic", price: 5, style: "Cheesesteak", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand9 = Sandwich.create!(name: "FDNY", description: "feels like a fire engine in my mouth", price: 8, style: "Sub", rating: 5)
+Sand9 = Sandwich.create!(name: "FDNY", description: "feels like a fire engine in my mouth", price: 8, style: "Sub", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand10 = Sandwich.create!(name: "Milf Hunter", description: "the name says it all", price: 8, style: "Club", rating: 4)
+Sand10 = Sandwich.create!(name: "Milf Hunter", description: "the name says it all", price: 8, style: "Club", rating: 4, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand11 = Sandwich.create!(name: "The Beast", description: "best heart attack I ever had", price: 11, style: "Sub", rating: 5)
+Sand11 = Sandwich.create!(name: "The Beast", description: "best heart attack I ever had", price: 11, style: "Sub", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand12 = Sandwich.create!(name: "The Italian Stallion", description: "Sylvester Stallone just punched my tastebuds", price: 11, style:  "Sub", rating: 5)
+Sand12 = Sandwich.create!(name: "The Italian Stallion", description: "Sylvester Stallone just punched my tastebuds", price: 11, style:  "Sub", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand13 = Sandwich.create!(name: "Italian Combo", description: "best Italian Combo in the city", price: 9, style: "Sub", rating: 5)
+Sand13 = Sandwich.create!(name: "Italian Combo", description: "best Italian Combo in the city", price: 9, style: "Sub", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand14 = Sandwich.create!(name: "Chicken Cutlet", description: "homemade on a roll with lettuce	mayo and hot sauce is fire", price: 5, style: "Cutlet", rating: 3)
+Sand14 = Sandwich.create!(name: "Chicken Cutlet", description: "homemade on a roll with lettuce	mayo and hot sauce is fire", price: 5, style: "Cutlet", rating: 3, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand15 = Sandwich.create!(name: "Chop Cheese", description: "The best in bed stuy", price: 5, style: "CheeseSteak", rating: 4)
+Sand15 = Sandwich.create!(name: "Chop Cheese", description: "The best in bed stuy", price: 5, style: "CheeseSteak", rating: 4, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand16 = Sandwich.create!(name: "Chicken Cesar", description: "low key secret spot that only serves sandwiches on Wednesday", price: 10, style: "Sub", rating: 5)
+Sand16 = Sandwich.create!(name: "Chicken Cesar", description: "low key secret spot that only serves sandwiches on Wednesday", price: 10, style: "Sub", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand17 = Sandwich.create!(name: "Tuna with Balsam and Motzarelle", description: "this sandwich is incredible but a special only available on Tuesdays", price: 10, style: "Sub", rating: 5)
+Sand17 = Sandwich.create!(name: "Tuna with Balsam and Motzarelle", description: "this sandwich is incredible but a special only available on Tuesdays", price: 10, style: "Sub", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand18 = Sandwich.create!(name: "Spicy Banh Mi", description: "this is a classic and their spicy actually has a good kick", price: 8, style: "Sub", rating: 5)
+Sand18 = Sandwich.create!(name: "Spicy Banh Mi", description: "this is a classic and their spicy actually has a good kick", price: 8, style: "Sub", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand19 = Sandwich.create!(name: "Hot Breast", description: "a big hot chicken sandwich a locally loved dive bar… best when drunk", price: 12, style: "Cutlet", rating: 5)
+Sand19 = Sandwich.create!(name: "Hot Breast", description: "a big hot chicken sandwich a locally loved dive bar… best when drunk", price: 12, style: "Cutlet", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand20 = Sandwich.create!(name: "Roast Beef", description: "this is large and in charge… you feel like you are in the mob when you eat it", price: 10, style: "Melt", rating: 5)
+Sand20 = Sandwich.create!(name: "Roast Beef", description: "this is large and in charge… you feel like you are in the mob when you eat it", price: 10, style: "Melt", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand21 = Sandwich.create!(name: "Roast Beef", description: "this is basically a fast food joint that hits the spot.  Best after quite a few beers", price: 6, style: "Melt", rating: 3)
+Sand21 = Sandwich.create!(name: "Roast Beef", description: "this is basically a fast food joint that hits the spot.  Best after quite a few beers", price: 6, style: "Melt", rating: 3, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand22 = Sandwich.create!(name: "Eggplant Parm", description: "well worth the journey because the eggplant parm is the best in nyc", price: 12, style: "Sub", rating: 5)
+Sand22 = Sandwich.create!(name: "Eggplant Parm", description: "well worth the journey because the eggplant parm is the best in nyc", price: 12, style: "Sub", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand23 = Sandwich.create!(name: "Toscana", description: "keeping the legit Italian alive in Manhattan... get a bite here after going to the hudson yards", price: 18, style: "Sub", rating: 4)
+Sand23 = Sandwich.create!(name: "Toscana", description: "keeping the legit Italian alive in Manhattan... get a bite here after going to the hudson yards", price: 18, style: "Sub", rating: 4, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand24 = Sandwich.create!(name: "Bridgette bardo", description: "never look back... it is the truth... I have died in paris", price: 18, style: "club", rating: 5)
+Sand24 = Sandwich.create!(name: "Bridgette bardo", description: "never look back... it is the truth... I have died in paris", price: 18, style: "club", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand25 = Sandwich.create!(name: "Tofu Sandwich", description: "light and healty... apparently their pho is also good", price: 12, style: "sub", rating: 3)
+Sand25 = Sandwich.create!(name: "Tofu Sandwich", description: "light and healty... apparently their pho is also good", price: 12, style: "sub", rating: 3, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand26 = Sandwich.create!(name: "Valentini Special", description: "The eggplant at Defontes is out of control and this sandwich is eggplant heaven", price: 12, style: "sub", rating: 5)
+Sand26 = Sandwich.create!(name: "Valentini Special", description: "The eggplant at Defontes is out of control and this sandwich is eggplant heaven", price: 12, style: "sub", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
 
 #### Deli Seed ####     40.79219148698767, -73.93854900173078

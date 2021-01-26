@@ -18,7 +18,7 @@ class Api::SandwichesController < ApplicationController
     private
 
     def sandwich_params
-        params.permit(:name, :description, :price, :style, :rating)
+        params.permit(:name, :description, :price, :style, :rating, :image)
     end
 
 end

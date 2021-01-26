@@ -6,6 +6,7 @@ class CreateSandwiches < ActiveRecord::Migration[6.0]
       t.integer :price
       t.string :style
       t.integer :rating
+      t.string :image
 
       t.timestamps
     end
