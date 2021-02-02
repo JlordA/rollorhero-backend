@@ -15,62 +15,62 @@ Review.destroy_all
 DeliSandwich.destroy_all
 
 #### User Seed ####
-james = User.create!(username: "James", password: "Password1234", neighborhood: "Bed Stuy", borough: "Brooklyn")
+james = User.create!(username: "James", password: "Password4321", neighborhood: "Bed Stuy", borough: "Brooklyn")
 brian = User.create!(username: "Brian", password: "Luggage1234", neighborhood: "Greenpoint", borough: "Brooklyn")
 
 #### Sandwich Seed ####
 
-Sand1 = Sandwich.create!(name: "Vegan Cheeseburger", description: "delicious and healthy", price:  10, style:  "Burger", rating: 4, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand1 = Sandwich.create!(name: "Vegan Cheeseburger", description: "delicious and healthy", price:  10, style:  "Burger", rating: 4, image: "https://s3-media0.fl.yelpcdn.com/bphoto/LlioXLvVBDClDrIbvTxj5Q/258s.jpg")
 
-Sand2 = Sandwich.create!(name: "Vegan Philly Cheesesteak", description:  "the bomb", price: 8, style:  "Cheesesteak", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand2 = Sandwich.create!(name: "Vegan Philly Cheesesteak", description:  "the bomb", price: 8, style:  "Cheese Steak", rating: 5, image: "https://www.chloescornermyk.com/uploads/1/3/1/8/131898243/s521518017441643161_p43_i1_w1776.jpeg?width=640")
 
-Sand3 = Sandwich.create!(name: "Guac Burger", description: "drippy and posh", price: 18, style: "Burger", rating: 4, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand3 = Sandwich.create!(name: "Guac Burger", description: "drippy and posh", price: 18, style: "Burger", rating: 4, image: "https://images.happycow.net/venues/1024/71/08/hcmp7108_950061.jpeg")
 
-Sand4 = Sandwich.create!(name: "Vegan Chop Cheese", description: "who wouldn’t want to eat this", price: 8, style: "Cheesesteak", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand4 = Sandwich.create!(name: "Vegan Chop Cheese", description: "who wouldn’t want to eat this", price: 8, style: "Cheese Steak", rating: 5, image: "https://www.spottedbylocals.com/newyork/files/chopped-cheese-new-york-by-ghdunbar.jpg")
 
-Sand5 = Sandwich.create!(name: "Confit Tuna Melt", description: "takes me home", price: 10, style: "Melt", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand5 = Sandwich.create!(name: "Confit Tuna Melt", description: "takes me home", price: 10, style: "Melt", rating: 5, image: "https://thehiddenveggies.com/wp-content/uploads/2017/07/vegan-tuna-melt-1024x683.jpg")
 
-Sand6 = Sandwich.create!(name: "NAPOLI", description: "cold and bold", price: 12, style: "Sub", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand6 = Sandwich.create!(name: "NAPOLI", description: "cold and bold", price: 12, style: "Sub", rating: 5, image: "https://images.squarespace-cdn.com/content/v1/54625ae9e4b042c56b637061/1433010485127-LN9ZWOSM7J8SV9QWPKL3/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/IMG_0207.jpg")
 
-Sand7 = Sandwich.create!(name: "Pulled Chicken Sandwich", description: "delicious tangy sauce", price: 12, style: "Cutlet", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand7 = Sandwich.create!(name: "Pulled Chicken Sandwich", description: "delicious tangy sauce", price: 12, style: "Cutlet", rating: 5, image: "https://lh3.googleusercontent.com/proxy/RdTC8SD9-565g_Zy9QxV6TJOxPIvMQT24B5YehjbpaIocTS_m-9wjr1wVLEpDYW3v7U-LSE6gsj7RuDZS6y1VpyuW_BiFQiD53qR2uoSWrCu-0vds1t5gNw7A_Q9u2myNmaDKtKtbiTYhLIgZSkM")
 
-Sand8 = Sandwich.create!(name: "Chop Cheese", description: "the O.G. classic", price: 5, style: "Cheesesteak", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand8 = Sandwich.create!(name: "Chop Cheese", description: "the O.G. classic", price: 5, style: "Cheese Steak", rating: 5, image: "https://static01.nyt.com/images/2016/10/28/nyregion/00CHOPPEDCHEESE5/00CHOPPEDCHEESE5-articleLarge.jpg?quality=75&auto=webp&disable=upscale")
 
-Sand9 = Sandwich.create!(name: "FDNY", description: "feels like a fire engine in my mouth", price: 8, style: "Sub", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand9 = Sandwich.create!(name: "FDNY", description: "feels like a fire engine in my mouth", price: 8, style: "Sub", rating: 5, image: "https://images.squarespace-cdn.com/content/v1/5be739e2b98a7825fd721ea7/1569689481051-J19OARBH4Q5A19G5QWVK/ke17ZwdGBToddI8pDm48kHem505q6McQd8XRhQc9zkRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxpEURhgSBEh9ILe0HKIG3CcOCklsxWwam3CdWF6Xw7jwVv5P97BEtB5XaVnmvMtTA/image-asset.jpeg?format=2500w")
 
-Sand10 = Sandwich.create!(name: "Milf Hunter", description: "the name says it all", price: 8, style: "Club", rating: 4, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand10 = Sandwich.create!(name: "Milf Hunter", description: "the name says it all", price: 8, style: "Club", rating: 4, image: "https://s3-media0.fl.yelpcdn.com/bphoto/JOxSa2sXse0Yos2ODP0muA/l.jpg")
 
-Sand11 = Sandwich.create!(name: "The Beast", description: "best heart attack I ever had", price: 11, style: "Sub", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand11 = Sandwich.create!(name: "The Beast", description: "best heart attack I ever had", price: 11, style: "Sub", rating: 5, image: "http://www.eatthisny.com/wp-content/uploads/2010/05/P1000799.jpg")
 
-Sand12 = Sandwich.create!(name: "The Italian Stallion", description: "Sylvester Stallone just punched my tastebuds", price: 11, style:  "Sub", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand12 = Sandwich.create!(name: "The Italian Stallion", description: "Sylvester Stallone just punched my tastebuds", price: 11, style:  "Sub", rating: 5, image: "https://preview.redd.it/wti4m6bf62h11.jpg?auto=webp&s=47006f9e28003a2ddcb8e435476c009f4d33cf3b")
 
-Sand13 = Sandwich.create!(name: "Italian Combo", description: "best Italian Combo in the city", price: 9, style: "Sub", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand13 = Sandwich.create!(name: "Italian Combo", description: "best Italian Combo in the city", price: 9, style: "Sub", rating: 5, image: "https://brokelyn.com/app/uploads/2017/01/Screen-Shot-2017-01-06-at-10.59.31-AM.png")
 
 Sand14 = Sandwich.create!(name: "Chicken Cutlet", description: "homemade on a roll with lettuce	mayo and hot sauce is fire", price: 5, style: "Cutlet", rating: 3, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
 
-Sand15 = Sandwich.create!(name: "Chop Cheese", description: "The best in bed stuy", price: 5, style: "CheeseSteak", rating: 4, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand15 = Sandwich.create!(name: "Chop Cheese", description: "The best in bed stuy", price: 5, style: "Cheese Steak", rating: 4, image: "https://i.redd.it/wzv8gh309hu31.jpg")
 
-Sand16 = Sandwich.create!(name: "Chicken Cesar", description: "low key secret spot that only serves sandwiches on Wednesday", price: 10, style: "Sub", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand16 = Sandwich.create!(name: "Chicken Cesar", description: "low key secret spot that only serves sandwiches on Wednesday", price: 10, style: "Sub", rating: 5, image: "https://fastly.4sqi.net/img/general/600x600/7478641_FEMStrfwDchkGCmkj6AaLF-DNEu2_MpE3nF7Xo25Hz4.jpg")
 
-Sand17 = Sandwich.create!(name: "Tuna with Balsam and Motzarelle", description: "this sandwich is incredible but a special only available on Tuesdays", price: 10, style: "Sub", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand17 = Sandwich.create!(name: "Tuna with Balsam and Motzarelle", description: "this sandwich is incredible but a special only available on Tuesdays", price: 10, style: "Sub", rating: 5, image: "https://34pugs3gizxlsre5g413879i-wpengine.netdna-ssl.com/wp-content/uploads/2019/01/fio-ph1.jpg")
 
-Sand18 = Sandwich.create!(name: "Spicy Banh Mi", description: "this is a classic and their spicy actually has a good kick", price: 8, style: "Sub", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand18 = Sandwich.create!(name: "Spicy Banh Mi", description: "this is a classic and their spicy actually has a good kick", price: 8, style: "Sub", rating: 5, image: "https://s3-media0.fl.yelpcdn.com/bphoto/eTZe-SRMiT_TE0DIed-F9w/o.jpg")
 
-Sand19 = Sandwich.create!(name: "Hot Breast", description: "a big hot chicken sandwich a locally loved dive bar… best when drunk", price: 12, style: "Cutlet", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand19 = Sandwich.create!(name: "Hot Breast", description: "a big hot chicken sandwich a locally loved dive bar… best when drunk", price: 12, style: "Cutlet", rating: 5, image: "https://preview.redd.it/2hz8xddj96z21.jpg?auto=webp&s=a4fbfbda508ca27674ecfa8c1ce8b91614e542f2")
 
-Sand20 = Sandwich.create!(name: "Roast Beef", description: "this is large and in charge… you feel like you are in the mob when you eat it", price: 10, style: "Melt", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand20 = Sandwich.create!(name: "Gargiulo Burger", description: "This is a meat lovers dream that combines a burger and the legandary roast beef.  Also has a cool backstory.", price: 10, style: "Burger", rating: 5, image: "http://www.burgerweekly.com/wp-content/uploads/2016/02/Brennan-Carr-Burger.jpg")
 
-Sand21 = Sandwich.create!(name: "Roast Beef", description: "this is basically a fast food joint that hits the spot.  Best after quite a few beers", price: 6, style: "Melt", rating: 3, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand21 = Sandwich.create!(name: "Roast Beef", description: "this is basically a fast food joint that hits the spot.  Best after quite a few beers", price: 6, style: "Melt", rating: 3, image: "https://roadfood.com/wp-content/uploads/2016/03/rfl_20222.jpg")
 
-Sand22 = Sandwich.create!(name: "Eggplant Parm", description: "well worth the journey because the eggplant parm is the best in nyc", price: 12, style: "Sub", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand22 = Sandwich.create!(name: "Eggplant Parm", description: "well worth the journey because the eggplant parm is the best in nyc", price: 12, style: "Sub", rating: 5, image: "https://www.fifteenspatulas.com/wp-content/uploads/2016/01/Eggplant_Parmesan_Sandwiches_.jpg")
 
-Sand23 = Sandwich.create!(name: "Toscana", description: "keeping the legit Italian alive in Manhattan... get a bite here after going to the hudson yards", price: 18, style: "Sub", rating: 4, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand23 = Sandwich.create!(name: "Toscana", description: "keeping the legit Italian alive in Manhattan... get a bite here after going to the hudson yards", price: 18, style: "Sub", rating: 4, image: "https://s3-media0.fl.yelpcdn.com/bphoto/ICKF7JM3LHtDEBoPes1U0g/l.jpg")
 
-Sand24 = Sandwich.create!(name: "Bridgette bardo", description: "never look back... it is the truth... I have died in paris", price: 18, style: "club", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand24 = Sandwich.create!(name: "Bridgette bardo", description: "never look back... it is the truth... I have died in paris", price: 18, style: "Club", rating: 5, image: "https://images.squarespace-cdn.com/content/v1/5969d2922994ca88516b5a07/1500735505002-81PPHC5SNUKZRN1LE6PI/ke17ZwdGBToddI8pDm48kFWxnDtCdRm2WA9rXcwtIYR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UcTSrQkGwCGRqSxozz07hWZrYGYYH8sg4qn8Lpf9k1pYMHPsat2_S1jaQY3SwdyaXg/image-asset.jpeg")
 
-Sand25 = Sandwich.create!(name: "Tofu Sandwich", description: "light and healty... apparently their pho is also good", price: 12, style: "sub", rating: 3, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand25 = Sandwich.create!(name: "Tofu Sandwich", description: "light and healty... apparently their pho is also good", price: 12, style: "Sub", rating: 3, image: "https://s3-media0.fl.yelpcdn.com/bphoto/MJBFQTqLdfA1i7xqNmLf4A/l.jpg")
 
-Sand26 = Sandwich.create!(name: "Valentini Special", description: "The eggplant at Defontes is out of control and this sandwich is eggplant heaven", price: 12, style: "sub", rating: 5, image: "https://i.redd.it/r2ez6t8e3f821.jpg")
+Sand26 = Sandwich.create!(name: "Valentino Special", description: "The eggplant at Defontes is out of control and this sandwich is eggplant heaven", price: 12, style: "Sub", rating: 5, image: "https://roadfood.com/wp-content/uploads/2018/09/defontesvalentinospecial-e1538680842628.jpg")
 
 
 #### Deli Seed ####     40.79219148698767, -73.93854900173078
