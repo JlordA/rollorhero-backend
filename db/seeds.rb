@@ -70,7 +70,7 @@ Sand24 = Sandwich.create!(name: "Bridgette bardo", description: "never look back
 
 Sand25 = Sandwich.create!(name: "Tofu Sandwich", description: "light and healty... apparently their pho is also good", price: 12, style: "Sub", rating: 3, image: "https://s3-media0.fl.yelpcdn.com/bphoto/MJBFQTqLdfA1i7xqNmLf4A/l.jpg")
 
-Sand26 = Sandwich.create!(name: "Valentino Special", description: "The eggplant at Defontes is out of control and this sandwich is eggplant heaven", price: 12, style: "Sub", rating: 5, image: "https://roadfood.com/wp-content/uploads/2018/09/defontesvalentinospecial-e1538680842628.jpg")
+Sand26 = Sandwich.create!(name: "Valentino Special", description: "The eggplant at Defontes is out of control and this sandwich is eggplant heaven", price: 12, style: "Sub", rating: 5, image: "https://roadfood.com/wp-content/uploads/2018/09/defontesvalentinospecial-e1538680842628.jpg`")
 
 
 #### Deli Seed ####     40.79219148698767, -73.93854900173078

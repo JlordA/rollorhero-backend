@@ -1,28 +1,32 @@
-# README
+# Roll or Hero API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to the Roll or Hero Rail API backend.  This rails api holds the database for the react based Roll or Hero front end.  The server database archives sandwiches reviews and delis located in New York City.  
 
-Things you may want to cover:
 
-* Ruby version
+## Architecture and models
 
-* System dependencies
+The 6 models represented here include Users / Delis / Sandwichs and Likes / Reviews / Deli_Sandwiches (Join Tables).  This API utilizes serializers to minimize the number of fetch requests necessary from the front end.
 
-* Configuration
+## Gem files of Importance:
 
-* Database creation
+* Ruby Rails version 6
 
-* Database initialization
+* bcrypt
 
-* How to run the test suite
+* postgresql 2.0
 
-* Services (job queues, cache servers, search engines, etc.)
+* faker
 
-* Deployment instructions
+* active-model-serializers
 
-* ...
+* rack-cors
 
-* First commit
+## To Run
+**To start the Client:**
+* bundel install or yarn
+* bundel start or yarn
 
-* Second Commit
+The client is running on http://localhost:4000/
+
+**To start the Server:**
+* rails s
