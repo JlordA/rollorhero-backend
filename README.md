@@ -34,6 +34,7 @@ This API utilizes serializers to minimize the number of fetch requests necessary
 * bundle install or yarn
 
 The client is running on http://localhost:4000/api/
+![Read Me Server](app/assets/images/RollOrHeroReadMeDB.png)
 
 **To start the Server:**
 * rails s
