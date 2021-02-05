@@ -32,7 +32,6 @@ This API utilizes serializers to minimize the number of fetch requests necessary
 
 **To start the Client:**
 * bundle install or yarn
-* bundle start or yarn
 
 The client is running on http://localhost:4000/api/
 
