@@ -34,7 +34,7 @@ This API utilizes serializers to minimize the number of fetch requests necessary
 * bundle install or yarn
 * bundle start or yarn
 
-The client is running on http://localhost:4000/
+The client is running on http://localhost:4000/api/
 
 **To start the Server:**
 * rails s
