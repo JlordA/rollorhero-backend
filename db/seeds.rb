@@ -32,7 +32,7 @@ Sand5 = Sandwich.create!(name: "Confit Tuna Melt", description: "takes me home",
 
 Sand6 = Sandwich.create!(name: "NAPOLI", description: "cold and bold", price: 12, style: "Sub", rating: 5, image: "https://images.squarespace-cdn.com/content/v1/54625ae9e4b042c56b637061/1433010485127-LN9ZWOSM7J8SV9QWPKL3/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/IMG_0207.jpg")
 
-Sand7 = Sandwich.create!(name: "Pulled Chicken Sandwich", description: "delicious tangy sauce", price: 12, style: "Cutlet", rating: 5, image: "https://lh3.googleusercontent.com/proxy/RdTC8SD9-565g_Zy9QxV6TJOxPIvMQT24B5YehjbpaIocTS_m-9wjr1wVLEpDYW3v7U-LSE6gsj7RuDZS6y1VpyuW_BiFQiD53qR2uoSWrCu-0vds1t5gNw7A_Q9u2myNmaDKtKtbiTYhLIgZSkM")
+Sand7 = Sandwich.create!(name: "Pulled Chicken Sandwich", description: "delicious tangy sauce", price: 12, style: "Cutlet", rating: 5, image: "https://umamigirl.com/wp-content/uploads/2018/08/BBQ-Pulled-Chicken-Instant-Pot-Slow-Cooker-780-Umami-Girl.jpg")
 
 Sand8 = Sandwich.create!(name: "Chop Cheese", description: "the O.G. classic", price: 5, style: "Cheese Steak", rating: 5, image: "https://static01.nyt.com/images/2016/10/28/nyregion/00CHOPPEDCHEESE5/00CHOPPEDCHEESE5-articleLarge.jpg?quality=75&auto=webp&disable=upscale")
 
